@@ -1299,7 +1299,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #intro {
-	background: #151515 url(../images/intro-bg.jpg) no-repeat center bottom;
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/intro-bg-new.jpg) no-repeat center bottom;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -1311,7 +1311,7 @@ header .logo a {
 	position: relative;
 	text-align: center;
 }
-.intro-overlay {
+/* .intro-overlay {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -1319,7 +1319,7 @@ header .logo a {
 	height: 100%;
 	background: #111111;
 	opacity: .85;
-}
+} */
 
 .intro-content {
 	display: table-cell;
@@ -2617,3 +2617,25 @@ footer .copyright span:last-child::after {
 	}
 }
 /*# sourceMappingURL=main.css.map */
+
+.disable-select {
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+   color: #EBEBEB;
+}
+
+.service .flaticon-icon {
+	color: #FF0077;
+	font-size: 5.4rem !important;
+}
+
+.flaticon-service {
+	padding-top: 20px !important;
+}
+
+.service-content-flaticon {
+	margin-top: 1.8rem;
+}<p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
