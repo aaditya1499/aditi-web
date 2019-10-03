@@ -2615,6 +2615,12 @@ footer .copyright span:last-child::after {
 	.skil-col {
 		padding-top: 3.4% !important;
 	}
+	.skill-col-2 {
+		padding-top: 0 !important;
+	}
+	.skill-1 {
+		padding-top: 1.6rem;
+	}
 }
 /*# sourceMappingURL=main.css.map */
 
